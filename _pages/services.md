@@ -5,16 +5,16 @@ permalink: /services/
 
 ## Social Media Toko Bunga Lampung
 
-[whatsapp](https://api.whatsapp.com/message/ONXIDHGYD2RME1 title="whatsapp")
+[whatsapp](https://api.whatsapp.com/message/ONXIDHGYD2RME1)
 
-[twitter](https://twitter.com/AsryFlorist/ title="twitter")
+[twitter](https://twitter.com/AsryFlorist/)
 
-[facebook](https://www.facebook.com/asryflorist title="facebook")
+[facebook](https://www.facebook.com/asryflorist)
 
-[pinterest](https://id.pinterest.com/asryflorist/ title="pinterest")
+[pinterest](https://id.pinterest.com/asryflorist/)
 
-[youtube](https://www.youtube.com/c/asryflorist title="youtube")
+[youtube](https://www.youtube.com/c/asryflorist)
 
-[blogger](https://www.blogger.com/profile/16771175368030427368 title="blogger")
+[blogger](https://www.blogger.com/profile/16771175368030427368)
 
-[rss](https://feeds.feedburner.com/Bungabuketcom title="rss")
+[rss](https://feeds.feedburner.com/Bungabuketcom)
