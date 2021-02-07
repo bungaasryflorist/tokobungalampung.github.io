@@ -16,7 +16,7 @@ exclude:
   - .sass-cache
 
 theme: #
-plugin:
+plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
