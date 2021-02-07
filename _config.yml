@@ -1,7 +1,7 @@
 title: Toko Bunga Lampung
 description: Papan Bunga Bandar Lampung Online Murah jual karangan ucapan dan buket mawar segar buka 24 jam.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://tokobungalampung.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
 
 sass:
