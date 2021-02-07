@@ -12,3 +12,5 @@ include:
 
 exclude:
   - .sass-cache
+
+theme: jekyll-theme-minimal
