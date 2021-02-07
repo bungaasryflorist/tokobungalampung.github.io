@@ -16,3 +16,4 @@ exclude:
   - .sass-cache
 
 theme: #
+excerpt_separator: <!--more-->
