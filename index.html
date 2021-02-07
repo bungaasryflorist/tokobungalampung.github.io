@@ -17,7 +17,9 @@ layout: default
   {% include sidebar.html %}
 </div>
 <!-- /.row -->
-  
+  {% if post.excerpt %}
+    {{ post.excerpt }}
+{% endif %}
 <div class="row">
   <div class="col-md-4 mb-5">
     <div class="card border-0 shadow h-100">
