@@ -1,6 +1,11 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="id">
+{% include head.html %}
+
+<body>
+  {% include navigation.html %} {% include header.html %}
+  <!-- Page Content -->
+  <div class="container mb-5">
 
 {{ content }}
 
@@ -74,3 +79,13 @@ layout: page
     {%- endif -%}
   {%- endfor -%}
 {%- endfor -%}
+  </div>
+<!-- /.container -->
+  {% include footer.html %}
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ site.baseurl }}/assets/vendor/jquery/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
