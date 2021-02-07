@@ -24,7 +24,7 @@
   
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@{{ site.title }}">
-  <meta name="twitter:title" content="{% if {{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+  <meta name="twitter:title" content="{{ page.title }}{{ site.title }}" />
   {% if page.image %}<meta name="twitter:image" content="{{ site.baseurl }}{{ image.path }}"/>{% endif %}
   <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
   <meta name="twitter:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}" />   
