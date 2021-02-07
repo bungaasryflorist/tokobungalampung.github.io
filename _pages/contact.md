@@ -5,6 +5,7 @@ permalink: /contact/
 
 ## Contact us
 
+{% if page.forms[0] %}{% include form.html form="1" %}{% endif %}
 <div class="row py-4">
     <div class="col-md-12">
     <div class="well well-sm">
