@@ -7,6 +7,8 @@ tags: [tokobungalampung]
 author: Asry Florist
 feature-img: "/img/header.png"
 toc: true
+disqus:
+  - shortname: tokobungalampung
 galleries:
   - title: wedding
     image: /img/wedding.jpg
