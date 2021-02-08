@@ -24,15 +24,15 @@ description              : "Kirim Bunga 081396353338."
 url                      : "https://tokobungalampung.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "bungaasryflorist/tokobungalampung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : "/img/header.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/img/header.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
  # breadcrumbs            : # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : tokobungalampung # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "tokobungalampung" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -64,10 +64,10 @@ google:
   search_engine_id       : # YOUR_SEARCH_ENGINE_ID
   instant_search         : # false (default), true
 # SEO Related
-google_site_verification :
-bing_site_verification   :
-yandex_site_verification :
-naver_site_verification  :
+google_site_verification : "6QX_nPk608uxEWJz3IRmEK9Qn5UHVIhlVFjk6Cgwgf4"
+bing_site_verification   : "F691A456433B8E475DB29FC83BD57AB6"
+yandex_site_verification : "ad128cdfad55d90d"
+naver_site_verification  : "12e50950f12f452cd11543dd39feab69"
 
 # Social Sharing
 twitter:
@@ -86,9 +86,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : "google-tag" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-KGKHX24HPP"
     anonymize_ip         : # true, false (default)
 
 
