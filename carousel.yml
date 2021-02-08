@@ -1,6 +1,6 @@
-images: 
-  - image: /uploads/slider/wedding.jpg
-  - image: /uploads/slider/bahagia.jpg
-  - image: /uploads/slider/sukses.jpg
-  - image: /uploads/slider/dukacita.jpg
-  - image: /uploads/slider/bunga-segar.jpg
+img: 
+  - img: /wedding.jpg
+  - img: /bahagia.jpg
+  - img: /sukses.jpg
+  - img: /dukacita.jpg
+  - img: /bunga-segar.jpg
