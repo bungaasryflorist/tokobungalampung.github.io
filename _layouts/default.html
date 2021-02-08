@@ -23,6 +23,8 @@
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {{ content }}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
+      
+      {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
 
     {% if site.search == true %}
