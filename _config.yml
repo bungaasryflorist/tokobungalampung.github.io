@@ -16,7 +16,7 @@ include:
 exclude:
   - .sass-cache
 
-theme: #
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
