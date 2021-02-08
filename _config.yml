@@ -18,21 +18,21 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 locale                   : "id-ID"
 title                    : "Toko Bunga Lampung"
 title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+subtitle                 : Toko Bunga Lampung Asry Florist # site tagline that appears below site title in masthead
 name                     : "Asry Florist"
 description              : "Kirim Bunga 081396353338."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://tokobungalampung.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+repository               : "bungaasryflorist/tokobungalampung.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : "/img/header.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : "/img/header.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : asryflorist-2 # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "tokobungalampung" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -95,7 +95,7 @@ analytics:
 # Site Author
 author:
   name             : "Asry Florist"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/img/header.png" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Katakan dengan Bunga."
   location         : "Bandar Lampung"
   email            :
@@ -124,13 +124,13 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/AsryFlorist"
+       url: "https://twitter.com/AsryFlorist"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-      # url: https://facebook.com/asryflorist
+       url: https://facebook.com/asryflorist
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: https://github.com/bungaasryflorist
+       url: https://github.com/bungaasryflorist
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -139,7 +139,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      # url: https://instagram.com/bungabuketmawar
+       url: https://instagram.com/bungabuketmawar
 
 
 # Reading Files
@@ -278,6 +278,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
