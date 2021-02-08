@@ -20,7 +20,6 @@
     {% include_cached masthead.html %}
 
     <div class="initial-content">
-      {% include carousel.html height="50" unit="%" duration="7" %}
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {% include breadcrumbs.html %}
       {{ content }}
