@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Toko Bunga Lampung Terdekat
 tagline: Papan Bunga Lampung Murah Online
 description: Kirim Bunga Papan dan Bunga Mawar Buket di Lampung kini semakin mudah dan simpel karena hadirnya salah satu florist lampung terbaik.
