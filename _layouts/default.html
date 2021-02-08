@@ -23,7 +23,7 @@
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {{ content }}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
-      {% include comments.html element=".post-content" github_account="bungaasryflorist/tokobungalampung.github.io" require_cookie_consent="true" %}
+      
       {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
 
