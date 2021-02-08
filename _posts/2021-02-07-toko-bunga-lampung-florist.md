@@ -7,6 +7,8 @@ tags: [tokobungalampung]
 author: Asry Florist
 feature-img: "/img/header.png"
 toc: true
+disqus:
+ - shortname: tokobungalampung
 galleries:
   - title: wedding
     image: /img/wedding.jpg
@@ -23,12 +25,6 @@ galleries:
   - title: bunga segar
     image: /img/bunga-segar.jpg
     url: /img/bunga-segar.jpg
-images:
-  - image: /img/wedding.jpg
-  - image: /img/bahagia.jpg
-  - image: /img/sukses.jpg
-  - image: /img/dukacita.jpg
-  - image: /img/bunga-segar.jpg
 ---
 
 ## PAPAN BUNGA LAMPUNG
