@@ -127,19 +127,19 @@ footer:
        url: "https://twitter.com/AsryFlorist"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
-       url: https://facebook.com/asryflorist
+       url: "https://facebook.com/asryflorist"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: https://github.com/bungaasryflorist
+       url: "https://github.com/bungaasryflorist"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-       url:
+      # url:
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
-       url:
+      # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-       url: https://instagram.com/bungabuketmawar
+       url: "https://instagram.com/bungabuketmawar"
 
 
 # Reading Files
