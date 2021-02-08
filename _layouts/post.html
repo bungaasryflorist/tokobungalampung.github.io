@@ -35,6 +35,9 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
+    {% if page.feature-img %}
+    <img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>
+  {% endif %}
     {{ content }}
   </div>
 
