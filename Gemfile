@@ -3,4 +3,9 @@
 source "https://rubygems.org"
 gemspec
 
-gem "jekyll-sitemap"
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem "jekyll-pwa-plugin"
+  gem "jekyll-sitemap"
+end
