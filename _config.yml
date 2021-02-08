@@ -5,16 +5,9 @@ url: "https://tokobungalampung.xyz" # the base hostname & protocol for your site
 color-scheme: "mediumseagreen" # the scheme can be any HEX code like "#00aa55"
 header: /img/header.png
 
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
-
 include:
   - _pages
   - _posts
-
-exclude:
-  - .sass-cache
 
 theme: jekyll-theme-cayman
 plugins:
