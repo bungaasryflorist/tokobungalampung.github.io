@@ -33,7 +33,7 @@ body {
 
 .initial-content,
 .search-content {
-  display: flex;
+  flex: 1 0 auto;
   justify-content: center;
 }
 
