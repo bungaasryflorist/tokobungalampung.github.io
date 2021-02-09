@@ -39,6 +39,11 @@ body {
   justify-content: center;
 }
 
+.ul, .ol {
+  display: table;
+  margin: 0 auto;
+}
+
 .page {
   @include breakpoint($large) {
     float: right;
