@@ -31,7 +31,7 @@ body {
           flex-direction: column;
 }
 
-.initial-content, .image-gallery-index,
+.initial-content,
 .search-content {
   flex: auto;
   text-align: center;
@@ -49,8 +49,9 @@ li {
 }
 
 nav.breadcrumbs {
-  width: 100%;
+  width: 80%;
   float: left;
+  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 18px;
@@ -70,7 +71,7 @@ nav.breadcrumbs ol li a {
    }
 }
 nav.breadcrumbs .breadcrumb {
-   font-size: 10px;
+   font-size: 18px;
    color: #818a91;
    padding: 0.75rem 1rem;
    margin-bottom: 1rem;
@@ -94,11 +95,6 @@ nav.breadcrumbs .breadcrumb-item+.breadcrumb-item::before {
    padding-left: 0.5rem;
    color: #818a91;
    content: "/";
-}
-@media (max-width: 768px) {
-  nav.breadcrumbs {
-    visibility: hidden;
-  }
 }
 
 .page {
