@@ -51,7 +51,6 @@ li {
 nav.breadcrumbs {
   width: 80%;
   float: left;
-  text-align: center;
   text-transform: uppercase;
   font-weight: 700;
   line-height: 18px;
@@ -71,7 +70,8 @@ nav.breadcrumbs ol li a {
    }
 }
 nav.breadcrumbs .breadcrumb {
-   font-size: 18px;
+   font-size: 14px;
+   text-align: center;
    color: #818a91;
    padding: 0.75rem 1rem;
    margin-bottom: 1rem;
