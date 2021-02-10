@@ -25,11 +25,10 @@ galleries:
   - title: bunga segar
     image: /img/bunga-segar.jpg
     url: /img/bunga-segar.jpg
-title: Jekyll Redirect 301
 old:
   - https://tokobungalampung.github.io
   - https://tokobungalampung.github.io/toko-bunga-lampung
-permalink: /jekyll-redirect/
+permalink: /:title
 ---
 
 ## PAPAN BUNGA LAMPUNG
