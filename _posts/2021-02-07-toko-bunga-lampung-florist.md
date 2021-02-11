@@ -25,7 +25,7 @@ galleries:
   - title: bunga segar
     image: /img/bunga-segar.jpg
     url: /img/bunga-segar.jpg
-redirect_to:
+old:
   - https://tokobungalampung.github.io
   - https://tokobungalampung.github.io/toko-bunga-lampung
   - https://tokobungalampung.github.io/search
