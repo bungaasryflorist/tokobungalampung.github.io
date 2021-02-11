@@ -22,7 +22,9 @@
     <div class="initial-content">
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {% include breadcrumbs.html %}
+      {% include categories.html %}
       {{ content }}
+      {% include tags.html %}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
       {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
