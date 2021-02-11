@@ -29,7 +29,7 @@ galleries:
 redirect_from:
   - /toko-bunga-lampung
   - /toko-bunga-lampung-florist/
-  - /_posts/2021-02--7-toko-bunga-lampung-florist/
+  - /_posts/2021-02-07-toko-bunga-lampung-florist/
   - /contact
   - /about.html
 permalink: /:title
