@@ -22,9 +22,19 @@
     <div class="initial-content">
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {% include breadcrumbs.html %}
-     Tag: {{page.tags | capitalize | join: ', '}}
+     {{page.tags | capitalize | join: ', '}}
       {{ content }}
-     Category: {{page.categories | capitalize | join: ', '}}
+     <div class="post-categories">
+  {% if post %}
+    {% assign categories = post.categories %}
+  {% else %}
+    {% assign categories = page.categories %}
+  {% endif %}
+  {% for category in categories %}
+  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
+  {% unless forloop.last %}&nbsp;{% endunless %}
+  {% endfor %}
+</div>
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
       {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
