@@ -1,13 +1,13 @@
-title: "Toko Bunga Lampung"
-name: "Asry Florist"
-description: "Kirim Bunga 081396353338."
-url: "https://tokobungalampung.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+title: Toko Bunga Lampung
+name: Asry Florist
+description: Kirim Bunga 081396353338.
+url: "https://tokobungalampung.xyz"
 baseurl: # the subpath of your site, e.g. "/blog"
 permalink: /:title.html
 repository: "bungaasryflorist/tokobungalampung.github.io"
 words_per_minute: 200
 disqus:
-  shortname: "tokobungalampung"
+  shortname: tokobungalampung
 
 google_site_verification : "6QX_nPk608uxEWJz3IRmEK9Qn5UHVIhlVFjk6Cgwgf4"
 bing_site_verification   : "F691A456433B8E475DB29FC83BD57AB6"
