@@ -2,9 +2,9 @@
 layout: archive
 ---
 
-{% include tags.html %}
+{% include tag-list.html %}
 {{ content }}
-{% include categories.html %}
+{% include category-list.html %}
 
 <ul class="taxonomy__index">
   {% assign postsInYear = site.posts | where_exp: "item", "item.hidden != true" | group_by_exp: 'post', 'post.date | date: "%Y"' %}
