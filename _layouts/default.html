@@ -24,17 +24,7 @@
       {% include breadcrumbs.html %}
      {{page.tags | capitalize | join: ', '}}
       {{ content }}
-     <div class="post-categories">
-  {% if post %}
-    {% assign categories = post.categories %}
-  {% else %}
-    {% assign categories = page.categories %}
-  {% endif %}
-  {% for category in categories %}
-  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">{{category}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-</div>
+     {{page.categories | capitalize | join: ', '}}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
       {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
