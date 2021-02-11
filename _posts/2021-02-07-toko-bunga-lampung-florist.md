@@ -32,7 +32,7 @@ redirect_from:
   - /_posts/2021-02-07-toko-bunga-lampung-florist/
   - /contact
   - /about.html
-permalink: /:title
+permalink: /toko-bunga-lampung-florist
 ---
 
 ## PAPAN BUNGA LAMPUNG
