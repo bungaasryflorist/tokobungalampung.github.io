@@ -22,9 +22,9 @@
     <div class="initial-content">
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {% include breadcrumbs.html %}
-      {{page.categories | capitalize | join: ', '}}
+     Tag: {{page.tags | capitalize | join: ', '}}
       {{ content }}
-      {{page.tags | capitalize | join: ', '}}
+     Category: {{page.categories | capitalize | join: ', '}}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
       {% if site.disqus.shortname %}{% include disqus.html %}{% endif %}
     </div>
