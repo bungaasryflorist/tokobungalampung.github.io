@@ -30,7 +30,6 @@ redirect_from:
   - https://tokobungalampung.github.io/toko-bunga-lampung
   - https://tokobungalampung.github.io/search
   - https://tokobungalampung.github.io/about.html
-  - https://tokobungalampung.github.io/tags/toko%20bunga%20lampung
 permalink: /:title
 ---
 
