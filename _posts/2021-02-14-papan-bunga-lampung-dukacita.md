@@ -6,7 +6,7 @@ description: Kirim Bunga Papan Dukacita di Lampung kini semakin mudah dan simpel
 tags: [tokobungalampung]
 categories: [tokobungalampung, tokobungadilampung]
 author: Asry Florist
-feature-img: "/img/papan-bunga=lampung-dukacita.png"
+feature-img: "/img/header.png"
 toc: true
 disqus:
   - shortname: tokobungalampung
