@@ -23,6 +23,7 @@
       {% if page.feature-img %}<img class="feature-image" src={{ page.feature-img }} alt="Feature Image"/>{% endif %}
       {% include breadcrumbs.html %}
      {{page.tags | capitalize | join: ', '}}
+      {% include toc.html html=content %}
       {{ content }}
      {{page.categories | capitalize | join: ', '}}
       {% if page.galleries %}{% include image-gallery-index.html %}{% endif %}
